@@ -9,13 +9,12 @@ public class AlarmClock {
     public AlarmClock(){
         clockHour = 12;
         clockMinute = 00;
-        AlarmToggle = 0;
         AlarmStatus = false;
     }
-    public AlarmClock(int givenHour, int givenMinute) {
+    public AlarmClock(int givenHour, int givenMinute, boolean givenStatus) {
         clockHour = givenHour;
         clockMinute = givenMinute;
-        AlarmStatus =
+        AlarmStatus = givenStatus;
     }
     
     /**
