@@ -1,4 +1,3 @@
-package feb_first;
 
 public class Battery
 {
